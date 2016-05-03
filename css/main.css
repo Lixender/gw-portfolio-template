@@ -1,0 +1,263 @@
+/*Portfolio Template Styles*/
+/*
+Primary Color: #000000;
+Secondary Color: #0DD3FF; #FF9600;
+Third Color: #6B6B6B;
+Text Color: #FFFFFF;
+*/
+/*Global styles*/
+body, html{
+  margin: 0;
+  font-family:sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+/*Header Styles*/
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+
+.logo{
+  width: 400px;
+  height: 100%;
+  float: left;
+  color: #fff;
+}
+
+.logo h1{
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu ul{
+  position: relative;
+  top: 35px;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+element.style{
+  position: relative;
+  top: 35px;
+}
+
+/*Banner Styles*/
+#banner{
+  height:300px;
+  width: 100%;
+  background: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+#banner h1{
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  font-size: 3em;
+  color: #fff;
+}
+
+/*Skills Styling*/
+#skills{
+  height: 440px;
+  width: 100%;
+  background-color: gray;
+  padding-top: 45px;
+}
+
+.skills-container{
+  height: 75%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article{
+  width: 25%;
+  height: 100%;
+  background-color: #FF9600;
+  float: left;
+  margin: 0 32px;
+  padding: 15px 12px;
+  border-radius: 5px;
+}
+
+#skills article h1{
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+#skills article p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*About Styles*/
+#about{
+  width:100%;
+  padding: 30px 0px;
+  background-color: #000;
+  display: inline-flex;
+}
+
+.img-box{
+  height: 400px;
+  width: 25%;
+  float: left;
+  background-color: #000;
+  border-radius: 20px;
+}
+
+.img-container{
+  height:200px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 100px;
+  border-radius: 100%;
+  background-color: #FF9600;
+}
+
+#about img{
+  height: 90%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.about-info{
+  height: 400px;
+  width: 70%;
+  float: left;
+  background-color: grey;
+  border-radius: 2px;
+}
+
+
+.about-content{
+  height: 320px;
+  width: 800px;
+  border: 2px dashed #FF9600;
+  margin: 35px 40px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#about h1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#about p{
+  padding: 0px 15px;
+}
+
+#contact{
+  width: 100%;
+  padding: 25px 0;
+  display: inline-block;
+  background: url("../img/bulb.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+#contact h1{
+  text-align: center;
+  font-size: 3em;
+  color:#fff;
+}
+
+.form-box{
+  height: 350px;
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 10px;
+}
+
+#contact input{
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+  width: 100%;
+  height: 125px;
+  margin: 20px 0;
+}
+
+#contact button{
+  width: 100px;
+  width: 100px;
+  border: 2px solid orange;
+  background-color: black;
+  color: orange;
+}
+
+#contact button:hover{
+  background-color: orange;
+  border: 2px solid black;
+  color: black;
+}
+
+/*Footer Styles*/
+footer{
+  height: 175px;
+  width: 100%;
+  background-color: grey;
+  clear:both;
+}
+
+.copyright p{
+  margin: 0;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.sm-icons{
+  width: 210px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.icon{
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+
+.icon i{
+  font-size: 2em;
+  padding: 15px;
+}
